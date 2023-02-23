@@ -1,13 +1,128 @@
-
-
 .page {
-    min-width: 1100px;
-    max-width: 1600px;
-    margin: 0 auto;
-    font-family: "Inter", Arial, sans-serif;
-    font-size: 16px;
-    line-height: 20px;
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 }
 
+.header {
+  display: block;
+  background: #ffffff url("../images/background_header.svg") no-repeat center;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  position: relative;
+}
 
+.header__logo {
+  position: absolute;
+  width: 125px;
+  height: 142px;
+  top: 30px;
+  left: 30px;
+}
 
+.nav {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  right: 0px;
+  padding: 30px 80px 0 0;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  column-gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  font-family: "Inter",Arial,serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header__title {
+  position: relative;
+  max-width: 729px;
+  padding: 80px 0 0 80px;
+  margin: 0;
+  top: 202px;
+  font-family: "Inter",Arial,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "Noto Serif",Arial,serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2F80ED;
+
+}
+
+.header__image {
+  position: absolute;
+  width: 646px;
+  height: 568px;
+  right: 5px;
+  top: 124px;
+}
+
+.header__description {
+  max-width: 683px;
+  margin: 0;
+  position: relative;
+  left: 80px;
+  top: 230px;
+  font-family: "Noto Serif",Arial,serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-sizing: border-box;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+.header__footer_times {
+  padding: 0 0 40px 80px;
+}
+
+.header__paragraph {
+  margin: 0;
+  font-family: "Inter",Arial,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
+
+.header__footer_address {
+  position: relative;
+  right: 80px;
+  bottom: 40px;
+}
