@@ -1,3 +1,15 @@
+@keyframes button {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 70%;
+  }
+}
+
+
+
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -174,4 +186,79 @@
  width: 100%;
  margin-top: 24px;
  justify-content: space-between;
+}
+
+
+/*************************************************************************Reservation*****************************************************************************/
+
+
+.reservation {
+  background-color: #D9E7FF;
+  background-image: url("../images/background_reservation.svg") ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0 120px 0;
+}
+
+.reservation__title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  max-width: 385px;
+  width: 100%;
+  border: 0;
+  column-gap: 32px;
+}
+
+.form__section {
+  margin-bottom: 32px;
+}
+
+.form__label {
+  margin-bottom: 8px;
+}
+
+.form__input {
+  padding: 0;
+  height: 60px;
+}
+
+.form__button {
+  border-radius: 4px;
+  height: 60px;
+  max-width: 385px;
+  margin: 32px 0 32px 0;
+}
+
+.form__button :hover {
+  transition: button ;
+}
+
+.form__checkbox {
+  display: flex;
+  justify-content: center;
+}
+
+.form__input_type_checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  vertical-align: middle;
 }
