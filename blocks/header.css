@@ -41,6 +41,11 @@
   font-weight: bold;
 }
 
+.nav__link:hover {
+  color: #2f80ed;
+  transition: color .5s ease-in-out;
+}
+
 
 .header__title {
   position: relative;
