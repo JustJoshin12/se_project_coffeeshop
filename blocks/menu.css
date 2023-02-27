@@ -48,7 +48,9 @@
   line-height: 30px;
   margin-bottom: 32px;
 }
-
+.card__list {
+  padding: 0;
+}
 .card__list-item {
  display: flex;
  font-family: "Noto Serif",Arial,sans-serif;
