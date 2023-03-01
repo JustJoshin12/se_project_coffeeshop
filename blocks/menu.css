@@ -21,7 +21,7 @@
   display: flex;
   justify-content: center;
   margin: 24px auto 100px auto;
-  font-family: "Noto Serif",Arial,sans-serif;
+  font-family: "Noto-Serif",Arial,sans-serif;
   font-size: 20px;
   line-height: 30px;
   text-align: center;
@@ -30,7 +30,7 @@
 .menu__cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   row-gap: 100px;
   column-gap: 100px;
 }

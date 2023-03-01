@@ -1,13 +1,12 @@
-
-
 .card {
- width: 540px;
- display: flex;
- flex-direction: column;
- flex-wrap: wrap;
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .card__title {
+  margin: 0;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
@@ -15,16 +14,21 @@
 }
 .card__list {
   padding: 0;
+  margin: 0;
 }
 .card__list-item {
- display: flex;
- font-family: "Noto Serif",Arial,sans-serif;
- margin: 0;
- padding: 0;
- margin-top: 16px;
+  display: flex;
+  font-family: "Noto-Serif", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-top: 16px;
+}
+
+.card__list-item:first-of-type {
+  margin-top: 0;
 }
 
 .card__list-divider {
- flex-grow: 3;
- border-bottom: #000000 1px solid;
+  flex-grow: 3;
+  border-bottom: #000000 1px solid;
 }
