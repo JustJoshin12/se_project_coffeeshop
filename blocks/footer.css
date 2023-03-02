@@ -20,6 +20,7 @@
 .footer__social-heading {
   font-weight: bold;
   margin-bottom: 20px;
+  margin-top: 0;
   text-align: end;
 }
 
